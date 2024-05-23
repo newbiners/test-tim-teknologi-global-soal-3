@@ -15,4 +15,17 @@
 - jalankan printah "npm run migrate" untuk melakukan migrasi
 - jalankan printah "npm run seed" untuk menyimpan data
 - jalankan printah "npm run start" untuk menjalankan
-- jika menggunakan docker jalankan printah "docker-compose up -d" # opsional
+- jika menggunakan docker jalankan printah "docker-compose up -d"
+
+
+## bagaimana cara menjalankan frontend
+
+#### require
+- pastikan backend telah berjalan dengan baik dan berada di port 3000
+
+#### cara menjalankannya 
+
+- buat terminal baru
+- masuk kedalam folder my-soal-3 dengan perintah "cd my-soal-3"
+- jalankan printah "npm install" untuk menginstall semua package
+- jalankan printah "npm run dev" untuk menjalankan aplikasi

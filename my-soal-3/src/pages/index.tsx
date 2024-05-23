@@ -70,7 +70,7 @@ getData()
     <main>
       <ActionButton
         variant="violet"
-        className="text-sm xl:text-xl text-white w-28 xl:w-52 font-semibold xl:mt-0 mt-3 m-5"
+        className="text-sm xl:text-xl text-white w-28 xl:w-52 font-semibold xl:mt-5 mt-3 m-5"
         onClick={handleBtnAct}
       >
         Create User
