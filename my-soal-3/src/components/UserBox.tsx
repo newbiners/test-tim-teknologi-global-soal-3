@@ -1,9 +1,11 @@
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { IoMdMale, IoMdFemale } from "react-icons/io";
 import { MdDeleteOutline } from "react-icons/md";
+import { FaEye } from "react-icons/fa6";
 import { MdEdit } from "react-icons/md";
 import { User } from "@/types/User";
 import { Dispatch } from "react";
+import Link from "next/link";
 const UserBox:React.FC<{
 data: User;
 btnHendler: (idx?: number) => void;
@@ -14,7 +16,6 @@ btnEditeHendler: () => void
         setEditeUser(data)
         btnEditeHendler()
     }
-    console.log(data, "data")
     return(
         <div className="h-56 bg-sky-50 flex justify-center items-center rounded-2xl relative overflow-hidden">
             <section className="flex absolute left-7 top-7 flex-col items-center p-3">
@@ -37,6 +38,10 @@ btnEditeHendler: () => void
                         <MdDeleteOutline/>
                         <p>Delete</p>
                     </button>
+                    <Link className="flex items-center" href={`/user/${data.id}`}>
+                    <FaEye />
+                        <p>View</p>
+                    </Link>
                 </section>
             </section>
         </div>
