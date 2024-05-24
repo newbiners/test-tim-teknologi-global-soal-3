@@ -24,7 +24,7 @@
 - pastikan backend telah berjalan dengan baik dan berada di port 3000
 
 #### cara menjalankannya 
-
+- pastikan backend sudah berjalan
 - buat terminal baru
 - masuk kedalam folder my-soal-3 dengan perintah "cd my-soal-3"
 - jalankan printah "npm install" untuk menginstall semua package
